@@ -4,4 +4,52 @@
   padding: 0%;
   box-sizing: border-box;
 }
+body{
+  background-color: #f6f8f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+
+
+/* UTILITIES */
+
+.bgwhite{
+  background-color: rgb(255, 255, 255);
+}
+
+.bgblue{
+  background-color: rgb(69, 171, 234);
+}
+
+.bgorange{
+  background-color: rgb(242, 158, 51);
+}
+
+.bgpurple{
+  background-color: rgb(156, 114, 228);
+}
+
+.bggreen{
+  background-color: rgb(176, 201, 38);
+}
+
+.whitetext{
+  color: white;
+}
+
+
+
+
+/* SINGLE ELEMENTS */
+
+.logobool{
+  padding: 15px 0px 15px 25px;
+  vertical-align:middle ;
+  width: 80px;
+}
+
+header h1 {
+  display: inline;
+  font-size: 50px;
+  vertical-align: middle;  
+}
