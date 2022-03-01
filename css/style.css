@@ -27,50 +27,49 @@ body{
 
 /* UTILITIES */
 
-.bgwhite{
+.bg-white{
   background-color: rgb(255, 255, 255);
 }
 
-.bgblue{
+.bg-blue{
   background-color: rgb(69, 171, 234);
 }
 
-.bgorange{
+.bg-orange{
   background-color: rgb(242, 158, 51);
 }
 
-.bgpurple{
+.bg-purple{
   background-color: rgb(156, 114, 228);
 }
 
-.bglime{
+.bg-lime{
   background-color: rgb(176, 201, 38);
 }
 
-.bggreen{
+.bg-green{
   background-color: rgb(100, 192, 169);
 }
 
-.bgpink{
+.bg-pink{
   background-color: rgb(216, 99, 161);
 }
 
-.whitetext{
+.white-text{
   color: white;
 }
 
-.itemtypetext{
+.item-type-text{
   color: white;
   font-size: smaller;
 }
-.buttonlayout{
+.button-layout{
   padding-inline-end: 2px;
   border-radius: 5px;
-  padding: 5px 10px;
-  
+  padding: 5px 10px;  
 }
 
-.listtitle{
+.list-title{
   font-size: 25px;
   font-weight: bold;
 }
@@ -90,7 +89,7 @@ header h1 {
   vertical-align: middle;  
 }
 
-.topcontainer{
+.top-container{
   width: 75%;
   margin: auto;
   margin-top: 50px;
@@ -98,11 +97,11 @@ header h1 {
   border-top-right-radius: 10px;
 }
 
-.buttoncontainer{
+.button-container{
   padding: 15px 50px 10px 50px;
 }
 
-.bottomcontainer{
+.bottom-container{
   width: 75%;
   margin: auto;
   margin-top: 5px;
@@ -111,12 +110,12 @@ header h1 {
   
 }
 
-.listcontainer{
+.list-container{
   padding: 30px 50px 30px 50px;
   
 }
 
-.listitem{
+.list-item{
   display: block;
   padding-top: 20px;
 }
@@ -125,13 +124,14 @@ header h1 {
   margin-left: 10px;
 }
 
-.itemtype{
+.item-type{
   margin: 10px 0px 0px 10px;
   padding: 6px 10px;
   border-radius: 30px;
-  content: "Editorial";
 }
 
-.listtitle::before{
+.list-title::before{
   content: "\25BC";
+  font-size: 15px;
+  display: inline-block;
 }
