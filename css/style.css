@@ -9,7 +9,13 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
+.checked{
+  font-weight: bold;
+  color: green;
+  border-radius: 50%;
+  border: 1px solid green;
+  padding: 5px;
+}
 
 /* UTILITIES */
 
@@ -37,7 +43,21 @@ body{
   color: white;
 }
 
+.itemtypetext{
+  color: white;
+  font-size: smaller;
+}
+.buttonlayout{
+  padding-inline-end: 2px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  
+}
 
+.listtitle{
+  font-size: 25px;
+  font-weight: bold;
+}
 
 
 /* SINGLE ELEMENTS */
@@ -52,4 +72,46 @@ header h1 {
   display: inline;
   font-size: 50px;
   vertical-align: middle;  
+}
+
+.topcontainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 50px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.buttoncontainer{
+  padding: 15px 50px 10px 50px;
+}
+
+.bottomcontainer{
+  width: 75%;
+  margin: auto;
+  margin-top: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+
+.listcontainer{
+  padding: 30px 50px 30px 50px;
+  
+}
+
+.listitem{
+  display: block;
+  padding-top: 20px;
+}
+
+.itemtype{
+  margin: 10px 0px 0px 10px;
+  padding: 6px 10px;
+  border-radius: 30px;
+  content: "Editorial";
+}
+
+.listtitle::before{
+  content: "\25BC";
 }
