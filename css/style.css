@@ -17,6 +17,14 @@ body{
   padding: 5px;
 }
 
+.crossed{
+  font-weight: bold;
+  color: red;
+  border-radius: 50%;
+  border: 1px solid red;
+  padding: 5px;
+}
+
 /* UTILITIES */
 
 .bgwhite{
@@ -35,8 +43,16 @@ body{
   background-color: rgb(156, 114, 228);
 }
 
-.bggreen{
+.bglime{
   background-color: rgb(176, 201, 38);
+}
+
+.bggreen{
+  background-color: rgb(100, 192, 169);
+}
+
+.bgpink{
+  background-color: rgb(216, 99, 161);
 }
 
 .whitetext{
@@ -103,6 +119,10 @@ header h1 {
 .listitem{
   display: block;
   padding-top: 20px;
+}
+
+.info{
+  margin-left: 10px;
 }
 
 .itemtype{
